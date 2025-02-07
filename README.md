@@ -33,6 +33,7 @@ This application is a portable Python IDE designed to run directly from a USB dr
 2. **Install Python:**
    - Install the regular version of Python using the official installer.
    - Optionally, copy the installed Python folder into your **PPython** folder on the USB drive if you want to keep everything portable.
+   - Install pip and pyqt5 if not already installed before first launch.  Packages required for IDE's User Interface.
 
 3. **Copy the IDE Script:**
    - Place the IDE script (e.g., `RDB_To_CSV_Database_Viewer.py`) on your USB drive.
