@@ -1,58 +1,54 @@
-# Portable Python IDE
+Portable Python IDE
+Tags: #Python, #IDE, #Portable, #USB, #Development, #CodeEditor, #Debugger, #PackageManagement, #PyInstaller, #Windows
 
-## Description
+Description
+This application is a portable Python IDE designed to run directly from a USB drive on Windows. It lets you set up a self-contained Python development environment by creating a dedicated PPython folder on your USB drive. You can use either a regular or a portable version of Python. When you launch the IDE, you'll be prompted to select your Python installation folder (the one containing python.exe), and the IDE will use that environment to run your scripts.
 
-This application is a portable Python IDE designed to run directly from a USB drive on Windows. It lets you set up a self-contained Python development environment by creating a dedicated **PPython** folder on your USB drive. You can use either a regular or a portable version of Python. When you launch the IDE, you'll be prompted to select your Python installation folder (the one containing `python.exe`), and the IDE will use that environment to run your scripts.
+Key Features
+Code Editor:
 
-### Key Features
+Syntax highlighting and line numbering.
+Search and replace functionality.
+Integrated Output & Debug Panels:
 
-- **Code Editor:**  
-  - Syntax highlighting and line numbering.
-  - Search and replace functionality.
+Real-time output display.
+Debugger interface using pdb for step-by-step execution.
+Package Management:
 
-- **Integrated Output & Debug Panels:**  
-  - Real-time output display.
-  - Debugger interface using pdb for step-by-step execution.
+Install, upgrade, list, and import Python packages.
+Export and import requirements files.
+Auto-Save & Backup:
 
-- **Package Management:**  
-  - Install, upgrade, list, and import Python packages.
-  - Export and import requirements files.
+Automatically saves your work every few minutes.
+Options for backing up configurations and scripts.
+Standalone App Creation:
 
-- **Auto-Save & Backup:**  
-  - Automatically saves your work every few minutes.
-  - Options for backing up configurations and scripts.
+Convert your scripts into standalone executables using PyInstaller.
+Setup Instructions
+Prepare Your USB Drive:
 
-- **Standalone App Creation:**  
-  - Convert your scripts into standalone executables using PyInstaller.
+Create a folder named PPython on your USB drive. This folder will serve as the destination for your Python installation.
+Install Python:
 
-## Setup Instructions
+Install the regular version of Python using the official installer.
+Optionally, copy the installed Python folder into your PPython folder on the USB drive if you want to keep everything portable.
+Install pip and pyqt5 if not already installed before first launch. Packages required for IDE's User Interface.
+Copy the IDE Script:
 
-1. **Prepare Your USB Drive:**
-   - Create a folder named **PPython** on your USB drive. This folder will serve as the destination for your Python installation.
+Place the IDE script (e.g., RDB_To_CSV_Database_Viewer.py) on your USB drive.
+Run the IDE:
 
-2. **Install Python:**
-   - Install the regular version of Python using the official installer.
-   - Optionally, copy the installed Python folder into your **PPython** folder on the USB drive if you want to keep everything portable.
-   - Install pip and pyqt5 if not already installed before first launch.  Packages required for IDE's User Interface.
+Launch the script on a Windows machine.
+When prompted, select your Python installation folder (the one containing python.exe). This configures the IDE to use the chosen Python environment.
+Start Developing:
 
-3. **Copy the IDE Script:**
-   - Place the IDE script (e.g., `RDB_To_CSV_Database_Viewer.py`) on your USB drive.
-
-4. **Run the IDE:**
-   - Launch the script on a Windows machine.
-   - When prompted, select your Python installation folder (the one containing `python.exe`). This configures the IDE to use the chosen Python environment.
-
-5. **Start Developing:**
-   - Use the integrated code editor to write, run, and debug your Python scripts.
-   - Manage packages and create standalone executables—all from your portable environment.
-
-## License
-
-This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.  
+Use the integrated code editor to write, run, and debug your Python scripts.
+Manage packages and create standalone executables—all from your portable environment.
+License
+This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
 You are free to share this work as long as you give appropriate credit, do not use it for commercial purposes without explicit permission, and do not modify it.
 
-For the full license text, see the [LICENSE](LICENSE) file or visit [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+For the full license text, see the LICENSE file or visit CC BY-NC-ND 4.0.
 
-## Disclaimer
-
+Disclaimer
 This software is provided "as-is" without any warranty. The author is not liable for any damages or issues arising from its use.
